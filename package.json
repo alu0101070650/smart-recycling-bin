@@ -1,0 +1,31 @@
+{
+  "name": "smart-bin-landing-page",
+  "version": "1.0.0",
+  "description": "Smart Recycling Bin - Landing Page",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alu0101070650/smart-recycling-bin.git"
+  },
+  "keywords": [
+    "smart",
+    "recycling",
+    "bin",
+    "landing",
+    "page"
+  ],
+  "author": "Andrés Calimero <andrescalimero@hotmail.es>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/alu0101070650/smart-recycling-bin/issues"
+  },
+  "homepage": "https://github.com/alu0101070650/smart-recycling-bin",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-handlebars": "^3.0.0"
+  }
+}

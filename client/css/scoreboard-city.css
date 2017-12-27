@@ -1,0 +1,36 @@
+.title {
+    font-size: 3em;
+}
+
+.page-header {
+    height: 30vh;
+}
+
+.charts {
+    margin-top: 25px;
+}
+
+.section {
+    padding: 40px 0;
+}
+
+.section h3 {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.table {
+    margin-top: 20px;
+}
+
+.fa-caret-up {
+    color: green;
+}
+
+.fa-caret-down {
+    color: red;
+}
+
+.fa-minus {
+    color: lightgrey;
+}
