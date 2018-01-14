@@ -111,3 +111,10 @@ body {
 
 /* -------- END FUNC SECTION -------- */
 
+.sidebar-collapse .navbar-collapse::before {
+    background: #009b6f;
+    background: -webkit-linear-gradient(#009b6f 0%, #000 80%);
+    background: -o-linear-gradient(#009b6f 0%, #000 80%);
+    background: -moz-linear-gradient(#009b6f 0%, #000 80%);
+    background: linear-gradient(#009b6f 0%, #000 80%);
+}
