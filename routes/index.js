@@ -7,6 +7,11 @@ router.get('/', (req, res, next) => {
     res.render('index.html');
 });
 
+router.get('/dcu', (req, res, next) => {
+    res.render('dcu.html');
+});
+
+
 router.get('/scoreboard', (req, res, next) => {
     res.render('scoreboard.html');
 });

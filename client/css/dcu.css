@@ -1,0 +1,113 @@
+body {
+    color: #2c2c2c;
+    font-size: 14px;
+    font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif !important;
+}
+
+.bg-primary {
+    background-color: #009b6f !important;
+}
+
+.page-header-image {
+    background-image: url("/img/header.jpg");
+}
+
+.page-header {
+    height: 40vh;
+}
+
+.page-header::before {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+
+.title {
+    color: #FFFFFF;
+    font-size: 4.5em;
+    text-shadow: 0 0 3px rgb(0, 0, 0);
+    margin-bottom: 0;
+    margin-top: 60px;
+}
+
+.justify-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.divider {
+    display: block;
+    width: 6rem;
+    height: 0.3rem;
+    background-color: #dfe1e5;
+    margin: 2rem auto;
+}
+
+.section {
+    border-top: solid #00c092 8px;
+}
+
+.section h2 {
+    margin-bottom: 5px;
+    font-weight: 400;
+    font-size: 3em;
+}
+
+.section h3 {
+    margin-top: 20px;
+    margin-bottom: 0;
+}
+
+/* -------- USAGE SECTION -------- */
+.section-usage {
+    border-top: solid #ff7763 8px;
+    border-bottom: solid #ff7763 8px;
+}
+
+.section-usage h2 {
+    margin-bottom: 0;
+    font-size: 3em;
+}
+
+.usage {
+    margin: 15px;
+}
+
+.usage-title {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.usage-description {
+    text-align: center;
+}
+
+/* -------- END USAGE SECTION -------- */
+
+/* -------- FUNC SECTION -------- */
+.section-func {
+    border-top: solid #FFFFFF 8px;
+    border-bottom: solid #FFFFFF 8px;
+}
+
+.section-func h2 {
+    margin-bottom: 0;
+    font-size: 3em;
+}
+
+.func {
+    margin: 15px;
+}
+
+.func-title {
+    margin-top: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+.func-description {
+    text-align: center;
+}
+
+/* -------- END FUNC SECTION -------- */
+
